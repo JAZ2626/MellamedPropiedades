@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+}
+
+.padre1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.padre1
+.MellamedPropiedades
+img {
+    width: 400px;
+}
+
+.padre2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+.ul{
+    margin-left: auto;
+}
+ul {
+list-style: none;
+background: blue;
+display: flex;
+}
+ul li {
+display: inline-block;
+position: relative;
+}
+ul li a {
+display: block;
+padding: 20px 25px;
+color: #FFF;
+text-decoration: none;
+text-align: center;
+font-size: 20px;
+}
+ul li ul.dropdown li {
+display: block;
+background-color: lightblue;
+}
+ul li ul.dropdown {
+width: 100%;
+background:lightblue;
+position: absolute;
+z-index: 999;
+display: none;
+}
+ul li a:hover {
+background: lightblue;
+}
+ul li:hover ul.dropdown {
+display: block;
+}
+
+button{
+    border: none;
+    width: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.bi-search{
+    color: #000;
+    font-size: 15px;
+}
+
+.content-search{
+    width: 40%;
+    height: 20vh;
+    position:relative;
+    left:0px;
+    background: lightblue;
+    display: none;
+}
+.todos{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Popiedades{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorCards{
+    display: flex;
+    justify-content: center; 
+}
+.title{
+    text-align:center;
+    font-size: 40px;
+}
+.m-5{
+    text-align: center;
+}
+.botones{
+    text-decoration: aqua;
+}
+.formulario{
+    background-color: blue;
+    text-align:center;
+}
+.d-block{
+    margin: auto;
+}
+.Redes{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: blue;
+    color: white;
+}
+footer div{
+    color: white;
+}
+.footer__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+    margin-top: 100px;
+}
+.mb-4{
+  text-align:left;
+  margin: 0;
+}
+.box__footer .footer__container{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    margin: 0;
+}
+
+.Whatsapp img{
+width: 300%;
+border-radius: 20%;
+}
+ .mercadopago{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    border-radius: 700px;
+    cursor: pointer;
+    transition: background-color 1s;
+    text-decoration: #FFF;
+ }
+ .mercadopago:hover{
+    background-color: lightblue;
+ }
+ .Copyright{
+    text-align: center
+ }

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercado Liebre</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="container-fluid">
+    <nav class="row">
+      <div class="col-md-4 padre1">
+        <div class="MellamedPropiedades">
+          <img src="img/logotype.png" alt="Mellamed Propiedades">
+          <a href="index.html"></a>
+        </div>
+      </div>
+      <div class=" col-md-4 text-center">
+        <div class="container mt-5">
+              <input type="text"
+                  id="formulario"
+                  class="form-control my-2">
+              <button>
+                  <i class="fa fa-search col-md-7"
+                  id="boton">
+                  </i>
+                  <div class="search">Buscar</button>
+          </form>
+      </div>
+  </div>
+    </nav>
+    <ul class="ul">
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="#">En Venta y Alquiler</a>
+        <ul class="dropdown">
+         <li><a href="#">Comprar</a></li>
+         <li><a href="#">Alquilar</a></li>
+        </ul>
+        </li>
+      <li><a href="#">Sobre Nosotros</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </header>
+    <div>
+      <img src="img/Blanco Negro Foto Ordenador Tumblr Banner BH.png" alt="Mellamed Propiedades" width="100% height="50%">
+    </div>
+    <br>
+    <div class="contenedorCards row" id="contenedor">
+      <div class="card col-md-3" style="width: 18rem;">
+        <img src="img/productos/img-cafetera-moulinex.jpg" class="card-img-top" alt="Cafetera Moulinex">
+        <div class="card-body">
+          <h5 class="card-title">Cafetera Moulinex</h5>
+          <a target="_blank" class="btn btn-primary boton" href="#">Comprar</a>  
+        </div>
+      </div>
+      <div class="card col-md-3" style="width: 18rem;">
+        <img src="img/productos/img-macbook-pro-2019.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Macbook Pro 2019</h5>
+          <a class="btn btn-primary boton" >Comprar</a>
+        </div>
+      </div>
+      <div class="card col-md-3" style="width: 18rem;">
+        <img src="img/productos/img-samsung-galaxy-s10.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Samsung Galaxy S10</h5>
+          <a  class="btn btn-primary boton">Comprar</a>
+        </div>
+      </div>
+      <div class="card col-md-3" style="width: 18rem;">
+        <img src="img/productos/img-tv-samsung-smart.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">TV Samsung Smart</h5>
+          <a  class="btn btn-primary boton">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <!-- lista de lo que trae el buscador -->
+    <ul id="resultado"></ul>
+  <footer class="footer__container">
+    <div class="box__footer text-center col-md-3">
+    <div class="col-md-3">
+    <h2>Seguinos</h2>
+    </div>
+    <div>
+      <div class="col-md-3">Facebook</a><i class="bi bi-facebook"></i></a></div>
+      <div class="col-md-3">Instagram</a><i class="bi bi-instagram"></i></div>
+    </div>
+  </div>
+  <div class="box__footer text-center col-md-3">
+    <div class="col-md-3">
+      <h2>Servicios</h2>
+      </div>
+    <div >
+      <div class="col-md-3">MercadoLiebre Pago</a><i class="bi bi-credit-card-2-back"></i></i></a></div>
+      </div>
+    </div>
+    <div class="box__footer text-center col-md-3">
+      <div class="col-md-3">
+        <h2>Nosotros</h2>
+        </div>
+    <div>
+      <div class="text-center col-md-3">
+        <p> Contactenos Al 1157689070 </p>
+      </div>
+  </div>
+  <button class="Whatsapp">
+    <a href="https://api.whatsapp.com/send?phone=1521717124" target="_blank"><img src="img/WP.png" alt="Whatsapp"></a>
+  </button>
+  <br>
+</footer>
+<div class="Copyright text-center">
+  © 2023 Copyright:
+</div>
+<script src="js/productosData.js"></script>
+  <script src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  </body>
+</html>
